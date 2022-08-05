@@ -1,0 +1,13 @@
+{
+  "name": "learning-js",
+  "version": "1.0.0",
+  "description": "Learning JS",
+  "main": "home.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
