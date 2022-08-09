@@ -1,3 +1,4 @@
+'use strict';
 // Testing a comment
 console.log("Testing console.log()");
 
@@ -7,4 +8,4 @@ let price = 49.99,
 
 showMessage("change", welcome);
 
-showMessage("currentOffer", 'We are selling ' + productName + ' for ' + price)
+showMessage("currentOffer", 'We are selling ' + productName + ' for ' + price);
