@@ -20,7 +20,31 @@
   <div class="d-none" id="content-js">
     <button class="accordion">Types and Operators</button>
     <div class="panel">
-      <p>Lorem ipsum...</p>
+      <h3>Variables</h3>
+      <p>Variable names must start with <code>_</code>, <code>$</code>, or any letter, and cannot be a number. Usually preceding a name with <code>_</code> denotes it as a private variable, and <code>$</code> is for auto-generated code.</p>
+      <p>Variables can be declared using <code>var</code>, <code>let</code>, or <code>const</code>. Generally <code>var</code> should not be used, mostly to make sure we catch errors for uninitialised variables.</p>
+      <h4>Example Code</h4>
+      <p>
+        <code>
+          <pre>
+          const applicationId = "Some GUID";
+          let counter = 100,
+              otherVariable = 200;
+          
+          counter = 99;   // Changes counter to 99
+          counter -= 5;   // Subtracts 5 from counter
+          counter++;      // Incredements counter
+          </pre>
+        </code>
+      </p>
+      <h3>Strings</h3>
+      <p></p>
+      <h3>Conversions</h3>
+      <p></p>
+      <h3>null and undefined</h3>
+      <p></p>
+      <h3>Objects</h3>
+      <p></p>
     </div>
     
     <button class="accordion">Functions</button>
